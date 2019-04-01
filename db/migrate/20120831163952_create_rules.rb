@@ -1,4 +1,4 @@
-class CreateRules < ActiveRecord::Migration
+class CreateRules < ActiveRecord::Migration[5.2]
   def change
     create_table :rules_rules do |t|
       t.belongs_to :rule_set
